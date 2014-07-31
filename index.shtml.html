@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<link rel="stylesheet" href="Scripts/js/JqueryM/jquery.mobile-1.4.2.min.css" />
+<link rel="stylesheet" href="Scripts/Bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="Scripts/ManavMobile.css" />
+<script src="Scripts/js/jquery-1.9.1.min.js"></script>
+<script src="Scripts/js/Content.js"></script>
+<script src="Scripts/Bootstrap/js/bootstrap.min.js"></script>
+<script src="Scripts/js/ContentEN.js"></script>
+<script src="Scripts/js/JqueryM/jquery.mobile-1.4.2.min.js"></script>
+<script type="text/javascript" src="Scripts/js/ImagesClock.js"></script>
+<script type="text/javascript" src="Scripts/js/jQueryRotate.2.2.js"></script>
+<script type="text/javascript" src="Scripts/js/ManavMobile.js"></script>
+<style>
+	.main{
+	background-image:url(Scripts/Pics/Ocean.jpg);
+	}
+</style>
+<title>Manav Agarwal MobileCV</title>
+</head>
+<body>
+	<div data-role="page" class="main" id="Main">
+        <div data-role="header" class="header"><center>Manav Agarwal MobileCV</center></div>
+        <div data-role="content">
+        	<div id="Sign" class="ui-grid-a">
+                    	<div class="signature ui-block-a"><span class="MyName">Manav Agarwal</span><br>Aerospace Engineer<br>Project Manager<br>Web Developer<br><i>Manav.agarwal4@gmail.com</i></div>
+                    	<div class="analog-clock ui-block-b"></div>
+            </div>
+            <div id="Apps">	<!--img class="signature" src="Scripts/Pics/signature.png"-->
+            <center><div class="ui-grid-c apps1">
+              <div class="ui-block-a" onClick="ContentEN(1);"><a href="#Summary" data-transition="turn"><img class="icons" src="Scripts/Pics/1.png"><div>Summary</div></a></div>
+              <div class="ui-block-b" onClick="ContentEN(2);"><a href="#Summary" data-transition="pop"><img class="icons" src="Scripts/Pics/2.png"><div>Education</div></a></div>
+              <div class="ui-block-c" onClick="ContentEN(3);"><a href="#Summary" data-transition="flow"><img class="icons" src="Scripts/Pics/3.png"><div>Work</div></a></div>
+              <div class="ui-block-d" onClick="ContentEN(4);"><a href="#Summary" data-transition="flip"><img class="icons" src="Scripts/Pics/4.png"><div>Languages</div></a></div>
+            </div><!-- /grid-b -->
+        	<div class="ui-grid-c apps2">
+              <div class="ui-block-a" onClick="ContentEN(5);"><a href="#Summary" data-transition="slide"><img class="icons" src="Scripts/Pics/5.png"><div>IT Skills</div></a></div>
+              <div class="ui-block-b" onClick="ContentEN(6);"><a href="#Summary" data-transition="fade"><img class="icons" src="Scripts/Pics/6.png"><div>Projects</div></a></div>
+              <div class="ui-block-c" onClick="ContentEN(7);"><a href="#Summary" data-transition="slidefade"><img class="icons" src="Scripts/Pics/7.png"><div>Hobbies</div></a></div>
+              <div class="ui-block-d" onClick="ContentEN(8);"><a href="#Summary" data-transition="flip"><img class="icons" src="Scripts/Pics/8.png"><div>Downloads</div></a></div>
+            </div><!-- /grid-b --></center>
+            </div>
+        	<div class="ui-grid-d quickapps">
+              <div class="ui-block-a"><a href="#Contact" data-transition="flip"><img class="qicons" src="Scripts/Pics/Q1.png"><div>Contact</div></a></div>
+              <div class="ui-block-b"><a href="#Contact" data-transition="flip"><img class="qicons" src="Scripts/Pics/Q2.png"><div>Signature</div></a></div>
+              <div class="ui-block-c"><a href="#Main" data-transition="flip"><img class="qicons" src="Scripts/Pics/Q5.png"><div>Home</div></a></div>
+              <div class="ui-block-d"><a href="#Message" data-transition="flip"><img class="qicons" src="Scripts/Pics/Q3.png"><div>Message</div></a></div>
+              <div class="ui-block-e"><a href="#Message" data-transition="flip"><img class="qicons" src="Scripts/Pics/Q4.png"><div>World</div></a></div>
+            </div><!-- /grid-b -->
+        </div>
+	</div>
+	
+    <div data-role="page" class="main" id="Summary" data-add-back-btn="true">
+        <center><div data-role="header" class="heading">Manav Agarwal MobileCV</div></center>
+        <div data-role="content" class="text" data-theme="a">Summary</div>
+        <div data-role="footer">
+        	<div class="ui-grid-d quickapps">
+              <div class="ui-block-a"><a href="#Contact" data-transition="flip"><img class="qicons" src="Scripts/Pics/Q1.png"><div>Contact</div></a></div>
+              <div class="ui-block-b"><a href="#Contact" data-transition="flip"><img class="qicons" src="Scripts/Pics/Q2.png"><div>Signature</div></a></div>
+              <div class="ui-block-c"><a href="#Main" data-transition="flip"><img class="qicons" src="Scripts/Pics/Q5.png"><div>Home</div></a></div>
+              <div class="ui-block-d"><a href="#Message" data-transition="flip"><img class="qicons" src="Scripts/Pics/Q3.png"><div>Message</div></a></div>
+              <div class="ui-block-e"><a href="#Message" data-transition="flip"><img class="qicons" src="Scripts/Pics/Q4.png"><div>World</div></a></div>
+            </div><!-- /grid-b -->
+        </div>
+	</div>
+    
+    
+    <div data-role="page" class="main" id="Contact" data-add-back-btn="true">
+        <center><div data-role="header" class="heading">Contact Details</div></center>
+        <div data-role="content" class="texta">
+        	<div class="ui-grid-b ContactSign">
+            	<div class="ui-block-a"><img src="Scripts/Pics/Clock/clockBg.png" id="Signphoto" /></div>
+				<div class="ui-block-baa ContactName"  style="text-align:left"><span class="MyName">Manav Agarwal</span><br>Aerospace Engineer<br>Project Manager<br>Web Developer<br></div>
+            </div>
+        	<div class="ui-grid-e" id="Contacts">
+        		<div class="ui-block-a contactIcons"><a href="mailto:Manav.agarwal4@gmail.com"><img class="contact" src="Scripts/Pics/Contacts/email.png" style="width:100%"></a></div>
+                <div class="ui-block-b contactIcons"><a href="http://www.facebook.com/manava1"><img class="contact" src="Scripts/Pics/Contacts/facebook.png" style="width:100%"></a></div>
+                <div class="ui-block-c contactIcons"><a href="http://www.twitter.com/manava"><img class="contact" src="Scripts/Pics/Contacts/twitter.png" style="width:100%"></a></div>
+                <div class="ui-block-d contactIcons"><a href="http://www.linkedin.com/manava"><img class="contact" src="Scripts/Pics/Contacts/linkedin.png" style="width:100%"></a></div>
+                <div class="ui-block-e contactIcons"><a href="http://www.youtube.com/manava"><img class="contact" src="Scripts/Pics/Contacts/youtube.png" style="width:100%"></a></div>
+        	</div>    
+        </div>
+        <div data-role="footer">
+        	<div class="ui-grid-d quickapps">
+              <div class="ui-block-a"><a href="#Contact" data-transition="flip"><img class="qicons" src="Scripts/Pics/Q1.png"><div>Contact</div></a></div>
+              <div class="ui-block-b"><a href="#Contact" data-transition="flip"><img class="qicons" src="Scripts/Pics/Q2.png"><div>Signature</div></a></div>
+              <div class="ui-block-c"><a href="#Main" data-transition="flip"><img class="qicons" src="Scripts/Pics/Q5.png"><div>Home</div></a></div>
+              <div class="ui-block-d"><a href="#Message" data-transition="flip"><img class="qicons" src="Scripts/Pics/Q3.png"><div>Message</div></a></div>
+              <div class="ui-block-e"><a href="#Message" data-transition="flip"><img class="qicons" src="Scripts/Pics/Q4.png"><div>World</div></a></div>
+            </div><!-- /grid-b -->
+        </div>
+	</div>
+    
+    <div data-role="page" class="main" id="Message" data-add-back-btn="true">
+        <center><div data-role="header">SMS</div></center>
+        <div id="iframe" data-role="content" data-theme="a"> </div>
+        <div data-role="footer">
+        	<div class="ui-grid-d quickapps">
+              <div class="ui-block-a"><a href="#Contact" data-transition="flip"><img class="qicons" src="Scripts/Pics/Q1.png"><div>Contact</div></a></div>
+              <div class="ui-block-b"><a href="#Contact" data-transition="flip"><img class="qicons" src="Scripts/Pics/Q2.png"><div>Signature</div></a></div>
+              <div class="ui-block-c"><a href="#Main" data-transition="flip"><img class="qicons" src="Scripts/Pics/Q5.png"><div>Home</div></a></div>
+              <div class="ui-block-d"><a href="#Message" data-transition="flip"><img class="qicons" src="Scripts/Pics/Q3.png"><div>Message</div></a></div>
+              <div class="ui-block-e"><a href="#Message" data-transition="flip"><img class="qicons" src="Scripts/Pics/Q4.png"><div>World</div></a></div>
+            </div><!-- /grid-b -->
+        </div>
+	</div>
+    
+</body>
+</html>

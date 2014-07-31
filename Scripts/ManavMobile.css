@@ -1,0 +1,115 @@
+	bodya{
+		overflow:hidden;
+	}
+	.main{
+		background-size:100%;
+	}
+	.signature
+	{
+		width:50%;
+		display:inline-block;
+		vertical-align:central;
+		text-align:right;
+		text-decoration:none;
+		font-weight:normal;
+		color:#FFF;
+		opacity:1;
+	}
+	#Signphoto
+	{
+		display:inline-block;
+	}
+	#MessageForm
+	{
+		margin:0% 0% 0% 0%;
+	}
+	.ContactSign
+	{
+		padding-bottom:5%;
+		border-bottom:solid #FFF;
+	}
+	.contactIcons
+	{
+		padding:2% 2% 2% 2%;
+		text-shadow: -1px 0 5px black, 0 1px 5px black, 1px 0 5px black, 0 -1px 5px black;
+	}
+	#Contacts
+	{
+	
+	}
+
+	#Sign
+	{
+		vertical-align:central;
+		border:thick;
+		border-color:#FFFBF0;
+		text-shadow: -1px 0 5px black, 0 1px 5px black, 1px 0 5px black, 0 -1px 5px black;
+		background-color:rgba(0,0,0,0.5);
+	}
+	#MyName
+	{
+		font-size:20px;
+	}
+	.analog-clock
+	{
+		display:inline-block;
+		margin-top:2%;
+		opacity:1;
+	}
+		.texta
+	{
+		background-color:#000;
+	}
+	.apps1, .apps2, .quickapps, .texta
+	{
+		color:#FFF;
+		text-shadow: -1px 0 5px black, 0 1px 5px black, 1px 0 5px black, 0 -1px 5px black;
+		text-align:center;
+	}
+	.quickapps
+	{
+		position:fixed;
+		padding:0px;
+		bottom:0px; 
+	}
+	.ui-content
+	{
+		padding:0%;
+	}
+	.icons
+	{
+		padding:5% 5% 5% 5%;
+		width:70%;
+	}
+	.icons,.qicons, .contactIcons
+	{
+		-webkit-filter: drop-shadow(2px 2px 2px #222);
+		filter: drop-shadow(2px 2px 2px #222); 
+	}
+	a, a:visited, a:hover
+	{
+		text-decoration:none;
+		font-weight:inherit;
+		color:#FFF;
+	}
+	.ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited {
+		color:inherit;
+	}
+	.ui-page-theme-a a, html .ui-bar-a a, html .ui-body-a a, html body .ui-group-theme-a a {
+		color: inherit;
+	}
+	.text
+	{
+		color:#2A0000;
+	}
+	span.stars, span.stars span {
+		display: block;
+		background: url(Pics/stars.png) 0 -16px repeat-x;
+		width: 80px;
+		height: 16px;
+	}
+
+	span.stars span {
+	    background-position: 0 0;
+	}
+
